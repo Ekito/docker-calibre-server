@@ -8,4 +8,4 @@ A Docker-file to create a calibre server with automatic books import
 
 ## Run the container
 
-`sudo docker run -t -i -p 80:8080 -v ~/ebooks:/opt/calibre/import ekito/calibre-server`
+`sudo docker run -d --restart=always -t -i -p 80:8080 -v ~/ebooks:/opt/calibre/import ekito/calibre-server`
