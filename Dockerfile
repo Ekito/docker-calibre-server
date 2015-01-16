@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER ndeverge@gmail.com
+MAINTAINER docker@ekito.fr
 
 RUN apt-get update -y && apt-get dist-upgrade -y
 
