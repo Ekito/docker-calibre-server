@@ -4,7 +4,7 @@ A Docker-file to create a calibre server with automatic books import
 
 ## Build the image 
 
-> sudo dockebuild -t ekito/calibre-server
+> sudo docker build -t ekito/calibre-server
 
 ## Run the container
 
